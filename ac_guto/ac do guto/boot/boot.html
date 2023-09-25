@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boot system</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="boot.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BioRhyme:wght@700&family=Share+Tech&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BioRhyme:wght@700&family=Share+Tech&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h2> CMOS Setup Utility  - Quais são as etapas para que um computador funcione?</h2>
+    </header>
+
+    <main>
+
+        <div>
+            <h2 id="h2_topo">*Clique em qual etapa você gostaria de ver primeiro</h2>
+            <ul>
+                <li>
+                    <a href="/ac do guto/pag1/LigarComputador.html" onmouseover="trocaConteudo(`Quer saber o que acontece ao ligar o computador? Venha descobrir!`)" onmouseout="esconderConteudo(`none`)">Ligar o computador</a>
+                </li>
+                <li>
+                    <a href="/ac do guto/pag2/Oboot.html" onmouseover="trocaConteudo(`Você sabe o que é um boot? clique e descubra o que é esta misteriosa tela azul!`)" onmouseout="esconderConteudo(`none`)">O boot</a>
+                </li>
+                <li>
+                    <a href="/ac do guto/pag3/POST.html" onmouseover="trocaConteudo('No nosso computador tem um mecanismo que verifica se todas as partes estão com um bom funcionamento. mas você sabe o nome dele?')" onmouseout="esconderConteudo()">POST</a>
+                </li>
+                <li>
+                    <a href="/ac do guto/pag4/index.html" onmouseover="trocaConteudo(`Temos um 'cérebro' que é responsável por iniciar o sistema do computador, veja o que tem por trás dele`)" onmouseout="esconderConteudo()">Inicialização do sistema Operacional</a>
+                </li>
+                <li>
+                    <a href="/ac do guto/pag5/index.html" onmouseover="trocaConteudo(`Quando abrimos um programa nós não percebemos, mas existem  vários cálculos e manipulação de dados para que o site funcione. Curioso? Veja aqui!`)" onmouseout="esconderConteudo()">Processamento</a>
+                </li>
+                <li>
+                    <a href="/ac do guto/pag6/index.html" onmouseover="trocaConteudo(`Ao acessar um site, precisamos passar por algumas etapas importantes como conexão com o servidor e a tradução do endereço de IP, mas ainda temos várias etapas`)" onmouseout="esconderConteudo()">Navegar na internet</a>
+                </li>
+            </ul>
+        </div>
+        
+        
+        <div class="vertical-line"></div>
+
+
+        <div class="right">
+            <p id="texto_responsivo"></p>
+        </div>
+        
+    </main>
+    <footer>
+        <h2 id="h2_footer">Entendeu tudo direito? esta preparado para um quiz?</h2>
+        <a href="/ac do guto/quiz/" id="link_footer">Vamos para o Quiz!</a>
+        <div class="horizontal_line"></div>
+    </footer>
+    
+    <script type="text/javascript" src="./boot.js"></script>
+
+</body> 
+</html>
